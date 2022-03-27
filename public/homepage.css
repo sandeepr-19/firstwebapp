@@ -1,0 +1,40 @@
+#h1 {
+  font-family: "Caveat", cursive;
+  text-align: center;
+}
+body {
+  background-attachment: fixed;
+  font-family: "Dancing Script", cursive;
+  background-image: url("https://images.wallpaperscraft.com/image/single/heart_glow_blur_54423_2560x1440.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#a1 {
+  border-style: hidden;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(240, 56, 132, 0.8),
+    rgba(247, 239, 243, 0.8)
+  );
+  position: relative;
+}
+#yourname,
+#gender1,
+#partnername,
+#gender2,
+#calc {
+  border-style: solid;
+  text-align: center;
+  border-width: 1px;
+  border-color: rgb(15, 15, 15);
+  border-radius: 20px;
+  background-color: inherit;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+option {
+  background-color: pink !important;
+}
+::-webkit-input-placeholder {
+  color: black;
+}
