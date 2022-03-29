@@ -8,3 +8,23 @@ function action() {
   } else {
   }
 }
+
+document.getElementById("wh").addEventListener("click", () => {
+  window.location.href = "https://wa.me/919486338304";
+});
+document.getElementById("insta").addEventListener("click", () => {
+  window.location.href = "https://instagram.com/_spryzen?utm_medium=copy_link";
+});
+document.getElementById("git").addEventListener("click", () => {
+  window.location.href = "https://github.com/sandeepr-19";
+});
+document.getElementById("google").addEventListener("click", () => {
+  window.location.href = "https://theinkedpapers.blogspot.com";
+});
+document.getElementById("snap").addEventListener("click", () => {
+  window.location.href =
+    "https://www.snapchat.com/add/the_spryzen?share_id=WVmq7Ao-tU4&locale=en-IN";
+});
+document.getElementById("tele").addEventListener("click", () => {
+  window.location.href = "https://t.me/itssan_z";
+});
