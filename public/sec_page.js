@@ -32,7 +32,7 @@ let per = parseInt(percent());
 if (per < 50) {
   per += 20;
 }
-document.getElementById("per").innerHTML = sename1 + " & " + sename2;
+document.getElementById("per").innerHTML = sename1 + "   &   " + sename2;
 if (
   (n1 == "sandeep" && n2 == "prakalya") ||
   (n1 == "prakalya" && n2 == "sandeep") ||
@@ -57,6 +57,52 @@ if (
 ) {
   let s = 100;
   document.getElementById("phar").innerHTML = s + "%";
+  document.getElementById("ph").innerHTML =
+    "You two are a romance novel which admires everyone. You two are describing… what true love looks like.";
 } else {
   document.getElementById("phar").innerHTML = per + "%";
+  if (per < 50) {
+    document.getElementById("ph").innerHTML =
+      "You two ain't perfect for each other. Jk, work on your relationship.";
+  }
+  if (per >= 50 && per < 60) {
+    document.getElementById("ph").innerHTML =
+      "You both look best for each other.";
+  }
+  if (per >= 60 && per < 70) {
+    document.getElementById("ph").innerHTML =
+      "Life is not perfect but the two of you are.";
+  }
+  if (per >= 70 && per < 80) {
+    document.getElementById("ph").innerHTML =
+      "I've seen the competing couple. But, you both are completing each other.";
+  }
+  if (per >= 80 && per < 90) {
+    document.getElementById("ph").innerHTML =
+      "You two are so natural together, you guys are the embodiment of love.";
+  }
+  if (per >= 90) {
+    document.getElementById("ph").innerHTML =
+      "That's what called a perfect match, You guys epitomize love even more than Juliet and Romeo.";
+  }
 }
+
+document.getElementById("wh").addEventListener("click", () => {
+  window.location.href = "https://wa.me/919486338304";
+});
+document.getElementById("insta").addEventListener("click", () => {
+  window.location.href = "https://instagram.com/_spryzen?utm_medium=copy_link";
+});
+document.getElementById("git").addEventListener("click", () => {
+  window.location.href = "https://github.com/sandeepr-19";
+});
+document.getElementById("google").addEventListener("click", () => {
+  window.location.href = "https://theinkedpapers.blogspot.com";
+});
+document.getElementById("snap").addEventListener("click", () => {
+  window.location.href =
+    "https://www.snapchat.com/add/the_spryzen?share_id=WVmq7Ao-tU4&locale=en-IN";
+});
+document.getElementById("tele").addEventListener("click", () => {
+  window.location.href = "https://t.me/itssan_z";
+});
